@@ -5,12 +5,12 @@ This project solves the "New Keyboard" problem, which simulates the behavior of 
 
 ## How to Run
 ```bash
-uv run python src/main.py
+python src/main.py
 ```
 
 ## How to Run Tests with Coverage
 ```bash
-uv run python -m pytest --cov=src.main --cov-branch --cov-report=term-missing test.py
+python -m pytest --cov=src.main --cov-branch --cov-report=term-missing test.py
 ```
 
 ## Expected Output
